@@ -6,7 +6,7 @@
 #
 default: &default
   adapter: postgresql
-  host:     <%= ENV ['PG_HOST'] %>
+  host:     <%= ENV['PG_HOST'] %>
   username: <%= ENV['PG_USERNAME'] %>
   password: <%= ENV['PG_PASSWORD'] %>
   pool: 25
